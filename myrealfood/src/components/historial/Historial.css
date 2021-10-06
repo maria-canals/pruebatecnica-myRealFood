@@ -1,0 +1,40 @@
+.historial {
+	background-color: rgba(226, 255, 217, 0.884);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+	overflow-y: scroll;
+}
+
+.historial-title {
+	font-size: 1.25rem;
+}
+
+.historial-element {
+	margin: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.historial-element:hover {
+	cursor: pointer;
+}
+
+.historial-element-image {
+	width: 20%;
+	border-radius: 5px;
+	height: 20%;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.288);
+}
+
+.historial-element-name {
+	width: auto;
+	margin-left: 40px;
+}
+
+@media (max-width: 1024px) {
+	.historial {
+		overflow-y: visible;
+	}
+}

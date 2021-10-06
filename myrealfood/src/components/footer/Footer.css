@@ -1,0 +1,8 @@
+.footer {
+	background: linear-gradient(#25ab92, #24ac92);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	color: white;
+}

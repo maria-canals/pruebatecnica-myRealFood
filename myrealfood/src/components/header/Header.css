@@ -1,0 +1,32 @@
+.header {
+	background: linear-gradient(#25ab92, #24ac92);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: auto;
+	color: white;
+}
+
+.header-title {
+	margin-top: 26px;
+	font-size: 2rem;
+}
+.logo {
+	width: 350px;
+	border-radius: 10px;
+	margin-left: 30px;
+}
+
+@media (max-width: 1024px) {
+	.header {
+		display: flex;
+		flex-direction: column;
+		height: auto;
+	}
+	.logo {
+		margin-left: 0px;
+	}
+	.header-title {
+		text-align: center;
+	}
+}
